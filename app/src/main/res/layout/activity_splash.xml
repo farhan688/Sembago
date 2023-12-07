@@ -5,46 +5,41 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvSembago"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="92dp"
         android:gravity="center"
         android:text="@string/sembago_string"
-        android:textColor="#181818"
-        android:textSize="48dp"
-        android:textStyle="bold"
+        android:textAppearance="@style/sembago"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvMotto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="10sp"
         android:text="@string/des_sembago"
-        android:textColor="#181818"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        android:textAppearance="@style/motto"
+        app:layout_constraintEnd_toEndOf="@+id/tvSembago"
+        app:layout_constraintStart_toStartOf="@+id/tvSembago"
+        app:layout_constraintTop_toBottomOf="@+id/tvSembago" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/ivSplash"
         android:layout_width="match_parent"
-        android:layout_height="410dp"
+        android:layout_height="wrap_content"
         android:src="@drawable/imagesplash1"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/pbSplash"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

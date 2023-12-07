@@ -6,7 +6,7 @@
     <string name="fresh__fast__convenient__your_ultimate_grocery_companion__string">Fresh, Fast, Convenient: Your Ultimate Grocery Companion!</string>
     <string name="sign_up">Sign Up</string>
     <string name="buat_akun_s">Buat akun Sembago mu sekarang!</string>
-    <string name="sign_in">SignIn</string>
+    <string name="sign_in">Sign In</string>
     <string name="belanja_mud">Belanja mudah, dan murah melalui\nsembago app</string>
     <string name="email">Email</string>
     <string name="masukan_ala">Masukan alamat email</string>
@@ -14,6 +14,23 @@
     <string name="masukan_kat">Masukan kata sandi</string>
     <string name="login_melal">Login melalui Google</string>
     <string name="log_in">Log In</string>
-    <string name="belum_punya">Belum punya akun? Sign up</string>
+    <string name="belum_punya">Belum punya akun? Sign Up</string>
     <string name="des_sembago">Fresh, Fast, Convenient: Your Ultimate Grocery Companion!</string>
+    <string name="title_activity_signin">SigninActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="cek_emailmu">Cek Emailmu, kode verifikasi telah dikirim\nmelalui email</string>
+    <string name="tunggu_30s">Tunggu 30s</string>
+    <string name="tidak_mener">Tidak menerima kode? kirim ulang</string>
+    <string name="nama">Nama</string>
+    <string name="confirmpass">Konfirmasi password</string>
+    <string name="masuk">Masuk</string>
+    <string name="sudah_punya">Sudah punya akun? sign In</string>
 </resources>
