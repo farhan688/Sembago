@@ -20,7 +20,7 @@ class SigninActivity : AppCompatActivity() {
         val tvBelumpunyakun: TextView = findViewById(R.id.tvBelumpunyakun)
 
         btnLogin.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 

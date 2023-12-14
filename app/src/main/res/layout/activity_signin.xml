@@ -16,7 +16,7 @@
         android:layout_marginTop="44dp"
         android:text="@string/sign_in"
         android:textAlignment="center"
-        android:textAppearance="@style/sign_in"
+        android:textAppearance="@style/green_48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,7 +31,7 @@
         android:gravity="center_horizontal|top"
         android:text="@string/belanja_mud"
         android:textAlignment="center"
-        android:textAppearance="@style/belanja_mud"
+        android:textAppearance="@style/black_10sp"
         app:layout_constraintEnd_toEndOf="@+id/tvSignin"
         app:layout_constraintStart_toStartOf="@+id/tvSignin"
         app:layout_constraintTop_toBottomOf="@+id/tvSignin" />
@@ -52,11 +52,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-
         android:layout_marginTop="36dp"
         android:gravity="bottom"
         android:text="@string/email"
-        android:textAppearance="@style/email"
+        android:textAppearance="@style/darkgreen_14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/evCart" />
 
@@ -85,7 +84,7 @@
         android:layout_marginTop="8dp"
         android:gravity="bottom"
         android:text="@string/password"
-        android:textAppearance="@style/password"
+        android:textAppearance="@style/darkgreen_14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEmail" />
 
@@ -116,7 +115,7 @@
         android:drawablePadding="-15dp"
         android:text="Login melalui Google"
         android:textAllCaps="false"
-        android:textAppearance="@style/login_melal"
+        android:textAppearance="@style/white_14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPasswordSU" />
@@ -144,7 +143,7 @@
         android:gravity="center_horizontal|top"
         android:text="@string/belum_punya"
         android:textAlignment="center"
-        android:textAppearance="@style/belum_punya"
+        android:textAppearance="@style/black_12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

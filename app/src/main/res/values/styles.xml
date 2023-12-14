@@ -1,80 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="sembago">
+    <style name="black_48sp">
         <item name="android:textColor">#181818</item>
         <item name="android:textSize">48sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/opensans</item>
     </style>
-    <style name="motto">
+    <style name="black_10sp">
         <item name="android:textColor">#181818</item>
         <item name="android:textSize">10sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/opensans</item>
     </style>
-    <style name="sign_up">
-        <item name="android:textSize">48sp</item>
-        <item name="android:textColor">#059C54</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="buat_akun_s">
-        <item name="android:textSize">10sp</item>
-        <item name="android:textColor">#181818</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="sign_in">
+    <style name="green_48sp">
         <item name="android:textSize">48sp</item>
         <item name="android:textColor">#059C54</item>
         <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/opensans</item>
     </style>
-    <style name="belanja_mud">
-        <item name="android:textSize">10sp</item>
-        <item name="android:textColor">#181818</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="email">
+    <style name="darkgreen_14sp">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#111810</item>
+        <item name="fontFamily">@font/opensans</item>
     </style>
-    <style name="placeholder">
+    <style name="darkgreen_10sp">
         <item name="android:textSize">10sp</item>
         <item name="android:textColor">#111810</item>
+        <item name="fontFamily">@font/opensans</item>
     </style>
-    <style name="password">
-        <item name="android:textSize">14sp</item>
-        <item name="android:textColor">#111810</item>
-    </style>
-    <style name="login_melal">
+    <style name="white_14sp">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/opensans</item>
     </style>
     <style name="log_in">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#000000</item>
         <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/opensans</item>
     </style>
-    <style name="belum_punya">
+    <style name="black_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/opensans</item>
+    </style>
+    <style name="black_12sp">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#181818</item>
         <item name="android:textStyle">bold</item>
-    </style>
-    <style name="enter_code">
-        <item name="android:textSize">48sp</item>
-        <item name="android:textColor">#059C54</item>
-    </style>
-    <style name="cek_emailmu">
-        <item name="android:textSize">10sp</item>
-        <item name="android:textColor">#181818</item>
+        <item name="fontFamily">@font/opensans</item>
     </style>
     <style name="tunggu_30s">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#181818</item>
+        <item name="fontFamily">@font/opensans</item>
     </style>
     <style name="tidak_mener">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#181818</item>
+        <item name="fontFamily">@font/opensans</item>
     </style>
     <style name="black_14sp">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#111810</item>
+        <item name="fontFamily">@font/opensans</item>
+    </style>
+    <style name="black_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#111810</item>
+        <item name="fontFamily">@font/opensans</item>
+    </style>
+    <style name="teal_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#00B694</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/opensans</item>
+    </style>
+    <style name="teal_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#00B694</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/opensans</item>
+    </style>
+    <style name="green_14sp">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#37B076</item>
+        <item name="fontFamily">@font/opensans</item>
+    </style>
+    <style name="black_13sp">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#181818</item>
+        <item name="fontFamily">@font/opensans</item>
     </style>
 </resources>

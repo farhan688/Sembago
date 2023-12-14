@@ -11,7 +11,7 @@
         android:layout_marginTop="92dp"
         android:gravity="center"
         android:text="@string/sembago_string"
-        android:textAppearance="@style/sembago"
+        android:textAppearance="@style/black_48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +23,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:text="@string/des_sembago"
-        android:textAppearance="@style/motto"
+        android:textAppearance="@style/black_10sp"
         app:layout_constraintEnd_toEndOf="@+id/tvSembago"
         app:layout_constraintStart_toStartOf="@+id/tvSembago"
         app:layout_constraintTop_toBottomOf="@+id/tvSembago" />

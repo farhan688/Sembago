@@ -15,7 +15,7 @@
         android:layout_marginTop="44dp"
         android:text="@string/enter_code"
         android:textAlignment="center"
-        android:textAppearance="@style/enter_code"
+        android:textAppearance="@style/green_48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,7 +29,7 @@
         android:layout_marginTop="12dp"
         android:gravity="center_horizontal|top"
         android:text="@string/cek_emailmu"
-        android:textAppearance="@style/cek_emailmu"
+        android:textAppearance="@style/black_10sp"
         app:layout_constraintEnd_toEndOf="@+id/enter_code"
         app:layout_constraintStart_toStartOf="@+id/enter_code"
         app:layout_constraintTop_toBottomOf="@+id/enter_code" />

@@ -12,6 +12,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gold">#FFD700</color>
+    <color name="pistachio">#1A93C572</color>
+    <color name="yellow"> #D7C05A</color>
+
+
 
     <color name="_bg__android_large___1_ek2_color">#FFFFFF</color>
     <color name="sembago_color">#181818</color>

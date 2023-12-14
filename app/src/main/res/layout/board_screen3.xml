@@ -5,12 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <ImageView
-        android:id="@+id/ivUnsplash1"
+        android:id="@+id/ivUnsplash2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/unsplash1"
+        android:src="@drawable/unsplash2"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,13 +23,12 @@
         android:layout_alignParentTop="true"
         android:background="@drawable/rectangle_1"
         android:scaleType="centerCrop"
-        app:layout_constraintBottom_toBottomOf="@+id/ivUnsplash1"
+        app:layout_constraintBottom_toBottomOf="@+id/ivUnsplash2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/ivUnsplash1"
+        app:layout_constraintStart_toStartOf="@+id/ivUnsplash2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-        android:id="@+id/btnSkip"
         android:layout_width="84dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
@@ -44,22 +42,22 @@
 
     <TextView
         android:id="@+id/tvAman_halal"
-        android:layout_width="159dp"
-        android:layout_height="184dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:gravity="center_horizontal|bottom"
-        android:text="@string/aman_halal"
+        android:gravity="center"
+        android:text="@string/halal"
         android:textAppearance="@style/green_48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivUnsplash1" />
+        app:layout_constraintTop_toBottomOf="@+id/ivUnsplash2" />
 
     <TextView
         android:id="@+id/tvFresh_fast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="12dp"
         android:gravity="center_horizontal|top"
@@ -68,5 +66,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvAman_halal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAyobelanja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_login"
+        android:text="Ayo Belanja!"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFresh_fast" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
