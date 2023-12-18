@@ -29,6 +29,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btnSkip"
         android:layout_width="84dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"

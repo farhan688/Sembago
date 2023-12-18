@@ -19,6 +19,9 @@
         android:theme="@style/Theme.Sembago"
         tools:targetApi="31">
         <activity
+            android:name=".WalkthroughActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailOrderActivity"
             android:exported="false" />
         <activity
