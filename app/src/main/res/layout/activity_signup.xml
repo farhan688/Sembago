@@ -14,11 +14,12 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="49dp"
-        android:textAlignment="center"
+        android:layout_marginTop="32dp"
         android:text="@string/sign_up"
+        android:textAlignment="center"
         android:textAppearance="@style/green_48sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -38,136 +39,154 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/ivProfile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="136dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:src="@tools:sample/avatars" />
+        app:layout_constraintTop_toBottomOf="@+id/tvBuatakunskrg"
+        tools:src="@drawable/profile_pic" />
 
-    <TextView
-        android:id="@+id/tvNama"
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnAddImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="28dp"
-        android:gravity="bottom"
-        android:text="@string/nama"
-        android:textAppearance="@style/black_14sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivProfile" />
+        android:background="@android:color/transparent"
+        android:src="@drawable/plus"
+        app:layout_constraintEnd_toEndOf="@+id/ivProfile"
+        app:layout_constraintTop_toTopOf="@+id/ivProfile" />
 
-    <EditText
-        android:id="@+id/etNama"
+    <LinearLayout
+        android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/rectangle_8"
-        android:hint="Masukkan nama"
-        android:padding="8dp"
-        android:textSize="12sp"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNama" />
+        app:layout_constraintTop_toBottomOf="@+id/ivProfile">
 
-    <TextView
-        android:id="@+id/tvEmailSU"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="8dp"
-        android:gravity="bottom"
-        android:text="@string/email"
-        android:textStyle="bold"
-        android:textAppearance="@style/black_14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etNama" />
+        <TextView
+            android:id="@+id/tvNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="bottom"
+            android:text="@string/nama"
+            android:textAppearance="@style/black_14sp"
+            android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/etEmailSU"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/rectangle_8"
-        android:hint="Masukkan alamat email"
-        android:inputType="textEmailAddress"
-        android:padding="8dp"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvEmailSU" />
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rectangle_8"
+            android:hint="Masukkan nama"
+            android:padding="8dp"
+            android:textSize="12sp" />
 
-    <TextView
-        android:id="@+id/tvPasswordSU"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="8dp"
-        android:gravity="bottom"
-        android:text="@string/password"
-        android:textStyle="bold"
-        android:textAppearance="@style/black_14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etEmailSU" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:visibility="visible" />
 
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/rectangle_8"
-        android:hint="Masukkan kata sandi"
-        android:inputType="textPassword"
-        android:padding="8dp"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvPasswordSU" />
+        <TextView
+            android:id="@+id/tvEmailSU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="bottom"
+            android:text="@string/email"
+            android:textAppearance="@style/black_14sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/tvConfirmpass"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="8dp"
-        android:gravity="bottom"
-        android:text="@string/confirmpass"
-        android:textStyle="bold"
-        android:textAppearance="@style/black_14sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+        <EditText
+            android:id="@+id/etEmailSU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rectangle_8"
+            android:hint="Masukkan alamat email"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textSize="12sp" />
 
-    <EditText
-        android:id="@+id/etConfirmpass"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/rectangle_8"
-        android:hint="Masukkan ulang kata sandi"
-        android:inputType="textPassword"
-        android:padding="8dp"
-        android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvConfirmpass" />
+        <TextView
+            android:id="@+id/tv_email_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvPasswordSU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="bottom"
+            android:text="@string/password"
+            android:textAppearance="@style/black_14sp"
+            android:textStyle="bold" />
+
+        <com.example.sembago.customview.EditPass
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rectangle_8"
+            android:hint="Masukkan kata sandi"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_password_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tvConfirmpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="bottom"
+            android:text="@string/confirmpass"
+            android:textAppearance="@style/black_14sp"
+            android:textStyle="bold" />
+
+        <com.example.sembago.customview.EditPass
+            android:id="@+id/etConfirmpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/rectangle_8"
+            android:hint="Masukkan ulang kata sandi"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tv_password2_alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:visibility="visible" />
+
+    </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnLoginbygoogle"
         android:layout_width="258dp"
         android:layout_height="40dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/btn_login_google"
         android:drawableStart="@drawable/google"
         android:drawablePadding="-15dp"
@@ -175,9 +194,8 @@
         android:textAllCaps="false"
         android:textAppearance="@style/white_14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etConfirmpass" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnMasuk"
@@ -187,10 +205,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="12dp"
         android:background="@drawable/btn_login"
-        android:text="@string/masuk"
+        android:text="Buat Akun"
         android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnLoginbygoogle"
+        app:layout_constraintStart_toStartOf="@+id/btnLoginbygoogle"
         app:layout_constraintTop_toBottomOf="@+id/btnLoginbygoogle" />
 
     <TextView

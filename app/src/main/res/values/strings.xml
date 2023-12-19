@@ -41,4 +41,8 @@
     <string name="my_profile">My Profile</string>
     <string name="log_out">Log Out</string>
     <string name="wishlist">Wishlist</string>
+    <string name="log_fail_string">Login failed. Please try again or adjust your email or password.</string>
+    <string name="email_invalid_string">Email is not correct</string>
+    <string name="pass_invalid_string">Password is not correct</string>
+    <string name="pass_valid_string">The password is correct</string>
 </resources>
