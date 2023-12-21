@@ -42,30 +42,36 @@
 
         <TextView
             android:id="@+id/tvSellerName"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:text="test"
+            card_view:layout_constraintBottom_toTopOf="@+id/tvAlamat"
+            card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="@+id/tvNamaItem"
             card_view:layout_constraintTop_toBottomOf="@+id/tvNamaItem" />
 
         <TextView
             android:id="@+id/tvAlamat"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
             android:text="alamat"
             card_view:layout_constraintBottom_toBottomOf="@+id/ivItemPic"
+            card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="@+id/tvNamaItem" />
 
         <TextView
             android:id="@+id/tvHarga"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:text="Rp.40.000"
             android:textAppearance="@style/teal_18sp"
             card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintTop_toBottomOf="@+id/tvNamaItem" />
+            card_view:layout_constraintTop_toTopOf="@+id/tvNamaItem" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
