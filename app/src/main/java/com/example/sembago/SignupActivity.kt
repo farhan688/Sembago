@@ -12,6 +12,7 @@ import android.text.method.LinkMovementMethod
 import android.text.style.ClickableSpan
 import android.view.View
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
@@ -134,8 +135,6 @@ class SignupActivity : AppCompatActivity() {
                 viewModel.registerUser(name, email, password)
                 viewModel.isSuccess.observe(this) { isSuccess ->
                     if (isSuccess){
-                        navigateToSignIn()
-                    } else {
                         showRegisterResponse(isSuccess)
                     }
                 }

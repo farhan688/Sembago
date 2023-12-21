@@ -1,5 +1,6 @@
 package com.example.sembago
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -26,6 +27,11 @@ class MainActivity : AppCompatActivity() {
                 R.id.miFavourite -> setCurrentFragment(favouriteFragment)
                 R.id.miTrolley -> setCurrentFragment(trolleyFragment)
                 R.id.miProfile -> setCurrentFragment(profileFragment)
+                R.id.miAstar -> {
+                    val intent = Intent(this, AstarActivity::class.java)
+                    startActivity(intent)
+                    return@setOnNavigationItemSelectedListener true
+                }
             }
             true
         }

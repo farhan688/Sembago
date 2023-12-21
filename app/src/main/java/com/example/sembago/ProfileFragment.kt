@@ -30,6 +30,7 @@ class ProfileFragment : Fragment() {
         binding.btnLogout.setOnClickListener {
             logoutUser()
         }
+
     }
 
     private fun logoutUser() {

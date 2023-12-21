@@ -16,12 +16,12 @@ data class ProductItem(
 	@field:SerializedName("price")
 	val price: String? = null,
 
-	@field:SerializedName("sellerName")
-	val sellerName: String? = null,
-
 	@field:SerializedName("title")
 	val title: String? = null,
 
 	@field:SerializedName("alamat")
-	val alamat: String? = null
+	val alamat: String? = null,
+
+	@field:SerializedName("sellerName")
+	val sellerName: String? = null
 )
