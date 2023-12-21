@@ -1,4 +1,4 @@
-package com.example.sembago
+package com.example.sembago.ui.activity
 
 import android.animation.ObjectAnimator
 import android.content.Context
@@ -15,6 +15,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.example.sembago.R
 import com.example.sembago.databinding.ActivitySigninBinding
 import com.example.sembago.viewmodel.LoginViewModel
 

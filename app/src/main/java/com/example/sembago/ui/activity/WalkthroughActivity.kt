@@ -1,4 +1,4 @@
-package com.example.sembago
+package com.example.sembago.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,10 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
+import com.example.sembago.R
+import com.example.sembago.ui.fragment.Walkthrough1Fragment
+import com.example.sembago.ui.fragment.Walkthrough2Fragment
+import com.example.sembago.ui.fragment.Walkthrough3Fragment
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 

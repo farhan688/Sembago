@@ -1,4 +1,4 @@
-package com.example.sembago
+package com.example.sembago.ui.activity
 
 import android.content.Intent
 import android.graphics.Color
@@ -12,10 +12,10 @@ import android.text.method.LinkMovementMethod
 import android.text.style.ClickableSpan
 import android.view.View
 import android.widget.TextView
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.example.sembago.R
 import com.example.sembago.databinding.ActivitySignupBinding
 import com.example.sembago.viewmodel.RegisterViewModel
 import de.hdodenhof.circleimageview.CircleImageView

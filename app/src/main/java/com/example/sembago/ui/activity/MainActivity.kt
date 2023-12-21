@@ -1,10 +1,14 @@
-package com.example.sembago
+package com.example.sembago.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
 import androidx.fragment.app.Fragment
+import com.example.sembago.ui.fragment.ProfileFragment
+import com.example.sembago.R
+import com.example.sembago.ui.fragment.FavouriteFragment
+import com.example.sembago.ui.fragment.HomeFragment
+import com.example.sembago.ui.fragment.TrolleyFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.example.sembago
+package com.example.sembago.ui.fragment
 
 import android.content.Context
 import android.content.Intent
@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import com.example.sembago.ui.activity.SigninActivity
 import com.example.sembago.databinding.FragmentProfileBinding
 
 class ProfileFragment : Fragment() {

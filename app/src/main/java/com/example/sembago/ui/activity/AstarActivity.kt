@@ -1,4 +1,4 @@
-package com.example.sembago
+package com.example.sembago.ui.activity
 
 import AstarAdapter
 import android.Manifest
@@ -25,6 +25,8 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.sembago.AstarViewModel
+import com.example.sembago.R
 
 class AstarActivity : AppCompatActivity() {
 

@@ -22,37 +22,34 @@
         android:theme="@style/Theme.Sembago"
         tools:targetApi="33">
         <activity
-            android:name=".DetailOrderActivity"
+            android:name=".ui.activity.DetailOrderActivity"
             android:exported="false" />
         <activity
-            android:name=".OrderActivity"
+            android:name=".ui.activity.OrderActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailProdukActivity"
+            android:name=".ui.activity.DetailProdukActivity"
             android:exported="false" />
         <activity
-            android:name=".AstarActivity"
+            android:name=".ui.activity.AstarActivity"
             android:exported="false" />
         <activity
-            android:name=".WalkthroughActivity"
+            android:name=".ui.activity.WalkthroughActivity"
             android:exported="false" />
         <activity
-            android:name=".DetailOrderActivity"
+            android:name=".ui.activity.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.activity.VerificationActivity"
             android:exported="false" />
         <activity
-            android:name=".VerificationActivity"
+            android:name=".ui.activity.SigninActivity"
             android:exported="false" />
         <activity
-            android:name=".SigninActivity"
+            android:name=".ui.activity.SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".SignupActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SplashActivity"
+            android:name=".ui.activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

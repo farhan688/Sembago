@@ -1,7 +1,8 @@
-package com.example.sembago
+package com.example.sembago.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.sembago.R
 
 class DetailOrderActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
