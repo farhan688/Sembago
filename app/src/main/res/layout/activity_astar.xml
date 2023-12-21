@@ -14,6 +14,14 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/black_18sp"
+            android:text="Temukan Produk di Sekitar Anda"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
         <EditText
             android:id="@+id/etLat"
             android:layout_width="match_parent"
@@ -29,7 +37,8 @@
         <Spinner
             android:id="@+id/spKategori"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
