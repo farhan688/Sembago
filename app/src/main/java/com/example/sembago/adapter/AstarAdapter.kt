@@ -1,6 +1,7 @@
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.example.sembago.databinding.ItemAstarBinding
 import com.example.sembago.response.MatchingProductsItem
 import java.text.DecimalFormat
@@ -40,6 +41,9 @@ class AstarAdapter(private val productList: MutableList<MatchingProductsItem>) :
                 tvAlamat.text = product.alamat ?: "Address not available"
                 tvDescription.text = product.description ?: "Description not available"
                 tvHarga.text = product.price?.toString() ?: "-"
+                Glide.with(ivItemPic.context)
+                    .load(product.imageLink)
+                    .into(ivItemPic)
             }
         }
     }
